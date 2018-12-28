@@ -1,0 +1,6 @@
+/build
+/*.tgz
+.idea
+*.map
+/coverage
+/node_modules
