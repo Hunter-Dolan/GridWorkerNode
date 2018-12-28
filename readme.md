@@ -32,6 +32,29 @@ For instance, it's a bad idea to have a task that performs something simple like
 
 When in doubt, test, benchmark, analyze.
 
+## Building
+
+Run the following commands:
+
+```
+$ yarn       # Install packages, you can also use npm
+$ yarn build # Compile the TS
+```
+
 ## Examples
 
-Check out the `src/example/example.ts` directory.
+Check out the `src/example/example.ts` directory
+
+To run the example open two terminals and do the following.
+
+This example will search for prime numbers.
+
+#### Start the server
+```
+$ yarn start:example --server --port=8000 --host=0.0.0.0
+```
+
+#### Start the worker
+```
+$ yarn start:example --worker --port=8000 --host=0.0.0.0
+```
